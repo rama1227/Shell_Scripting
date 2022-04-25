@@ -17,10 +17,11 @@ cat /etc/*release
 # apk -i upgrade
 # To install a htop package, run:
 # apk add htop
-apk del nginx
 
-apk update
-apk upgrade
+# apk del nginx
+
+# apk update
+# apk upgrade
 
 curl ifconfig.co
 ifconfig -a
