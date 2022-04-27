@@ -26,6 +26,6 @@ cat /etc/*release
 curl ifconfig.co
 ifconfig -a
 
-curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
+sudo curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
 
-/bin/bash -c echo y | ibmcloud plugin install container-service echo y | ibmcloud plugin install container-registry echo y | ibmcloud plugin install observe-service
+sudo /bin/bash -c echo y | ibmcloud plugin install container-service echo y | ibmcloud plugin install container-registry echo y | ibmcloud plugin install observe-service
