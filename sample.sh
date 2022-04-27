@@ -25,3 +25,5 @@ cat /etc/*release
 
 curl ifconfig.co
 ifconfig -a
+
+/bin/bash -c echo y | ibmcloud plugin install container-service echo y | ibmcloud plugin install container-registry echo y | ibmcloud plugin install observe-service
