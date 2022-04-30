@@ -24,4 +24,4 @@ cat /etc/*release
 # apk upgrade
 
 curl ifconfig.co
-ifconfig -a
+
