@@ -25,5 +25,4 @@ cat /etc/*release
 
 curl ifconfig.co
 
-echo y | ibmcloud plugin install container-service
 
